@@ -1,0 +1,39 @@
+/* src/App.css */
+html, body, #root {
+  height: 100%; /* Make sure the root takes up full height */
+  width: 100%;  /* Make sure the root takes up full width */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #031224; /* Slightly darker navy - adjust as needed */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ccd6f6;
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.App {
+  /* This creates the compact, centered column */
+  width: 800px; /* A fixed width for the main content block */
+  margin: 50px auto; /* Centers the block horizontally and adds space from the top */
+}
+
+.App-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.App-logo {
+  height: 120px;
+  pointer-events: none;
+}
+
+main {
+  width: 100%; /* Ensure main content takes full width */
+}

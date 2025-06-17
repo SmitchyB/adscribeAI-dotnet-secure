@@ -1,0 +1,10 @@
+/* src/HomePage.css */
+
+.card {
+  background: #112240;
+  border: 1px solid #303c55;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  margin-bottom: 40px; /* Increased margin-bottom */
+}
